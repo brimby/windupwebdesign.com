@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="author" content="Brian Hamby">
+		<title>Wind-up Web Design - Websites Designed with SEO in Mind</title>
+		<meta name="description" content="Hate your website? Time to get real web presence--user experience focused, responsive and mobile-ready, and stacked high with SEO to bring the customers running.">
+		<meta name="keywords" content="SEO, smart website, smart websites, optimized website, optimized websites, valuable website, valuable websites, web design, Wind-up Web Design, user experience, responsive, mobile website, stylish website, social marketing">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="panelSize.js"></script>
+		<link rel="stylesheet" href="style2.css">
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+		<![endif]-->
+		<script type="text/javascript">
+
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-33241376-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+	</head>
+	
+<body onload="panelSize()">
+	<div id="wrapper">
+	<header>
+		<div class="center">
+			<div id="social">
+				<a href="http://www.facebook.com/WindUpWebDesign" title="Follow on Facebook"><img src="images/fbgear.png" alt="fb"></a>
+				<a href="https://twitter.com/WindupWebDesign" title="Follow on Twitter"><img src="images/twgear.png" alt="tw"></a>
+				<a href="https://plus.google.com/b/113142336519769355338/113142336519769355338/posts" title="Follow on Google+"><img src="images/gggear.png" alt="gg"></a>
+			</div>
+			<a href="index.shtml"><img src="images/logoMain.png" id="biglogo" Alt="Wind-up Web Design"></a>
+			<nav>
+				<a href="blog.shtml">Blog</a>
+				<a href="portfolio.shtml">Portfolio</a>
+				<a href="contact.shtml">Contact</a>
+			</nav>
+		</div>
+	</header>
+	
+	<article id="main">
+		<div id="tooth">
+			<div class="center">
+			
+				<div id="spiel">
+					<h1 class="ballpark">Need a New Website?</h1>
+					<div class="block">
+						<p class="amerika">How 'bout one with</p>
+						<ul>
+							<li>Flare</li>
+							<li>Functionality &</li>
+							<li>Finesse?</li>
+						</ul>
+						<a href="contact.shtml" class="ctaButton1 amerika">Get Wind-up Now!</a>
+					</div>
+				</div>
+			</div>
+			<div id="tripanel">
+			<div class="center">
+				<aside id="panel1" class="panel">
+					<h1>Explosive Content</h1>
+					<p>Writing that hooks eyeballs. Graphics that jump off the page. When your site rocks, users can't help themselves from coming back for more. Wind-up Web Design is here to keep them coming with fresh content that they can't do without.</p>
+				</aside>
+				<aside id="panel2" class="panel">
+					<h1>Mobile-Ready</h1>
+					<p>Mobile users are set to eclipse home users on the internet by 2014. Is your site waiting with open arms, or just kind of shrugging? The Wind-up Web Team makes sites look great on screens of any size. Try resizing your browser window now to see how it works!</p>
+				</aside>
+				<aside id="panel3" class="panel">
+					<h1>Propel Your Business</h1>
+					<p>A pretty website is nice, but a smart website is a powerful vehicle for your company's marketing strategy. We'll put you in the fast lane with crafted social marketing, SEO goodness, and razor's edge branding to get you to the head of the pack.</p>
+				</aside>
+			</div>
+			</div>
+			<a href="contact.shtml" class="ctaButton2 amerika">Get Wind-up Now!</a>	
+			<div class="clear"></div>
+		</div>	
+	</article>
+	
+	<article id="creations">
+		<div class="center">
+			<h1 class="ballpark">Creations</h1>
+			<div id="examples">
+				<a href="http://www.newearthmarket.com" target="_blank"><img src="images/neweartheg.jpg"></a>
+				<a href="http://www.therefugeyc.com" target="_blank"><img src="images/refugeeg.jpg"></a>
+				<a href="http://www.recoursemediation.com" target="_blank"><img src="images/recourseeg.jpg"></a>
+				<a href="http://www.b2bhoops.com" target="_blank"><img src="images/b2beg.jpg"></a>
+			</div>
+		</div>
+	</article>
+
+<footer>
+	<div class="center">
+		<p id="copyright">&#169; 2013 Brian Hamby | Wind-up Web Design</p>
+	</div>
+</footer>
+
+
+
+
+</body>
+</html>
+

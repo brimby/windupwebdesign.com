@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Brian Hamby">
+		<title>Design Portfolio | Wind-up Web Design</title>
+		<meta name="description" content="A showcase of optimized websites created by Wind-up Web Design.">
+		<meta name="keywords" content="SEO, smart website, smart websites, optimized website, optimized websites, web design, Wind-up Web Design, user experience, mobile">
+<!--#include virtual="header.txt" -->
+		<h1 class="title">Wind-up Portfolio</h1>
+		<article class="greenbox">
+			<h1 id="porttitle"><span class="nyala">creations that</span><span class="beautiful drop">come to life...</span></h1>
+			<p>If your company is in the process of stretching its wings, Wind-up Web Design can relate. But even though our company has just opened its virtual doors, we are ready to prove that our brand of creating smart websites with traffic-boosting SEO and captivating user experience-oriented design is a winning combination. Come be a part of the beginning with us and get your new website forged by Wind-up!</p>
+		</article>
+		
+		<article class="greenbox portbox">
+			<h2 class="title">Recourse Mediation</h2>
+			<figure class="portentry">
+					<a href="http://www.recoursemediation.com"><img src="recourse.jpg"></a>
+			</figure>	
+			<p><em>RECOURSE Mediation Services</em> is a non-profit mediation clinic located in Sonoma County, California. The website runs on the Wordpress.org CMS and features powerful social media plugins, PayPal integration, and dynamic content, including a calendar and blog.</p>
+		</article>
+		
+		<article class="greenbox portbox">
+			<h2 class="title">B2B Hoops Basketball Academy</h2>
+				<figure class="portentry">
+					<a href="http://www.b2bhoops.com"><img src="b2b.jpg"></a>
+				</figure>
+				<p><em>Back to Basics Hoops Basketball Academy</em> is a children's basketball camp based in Sonoma County, California. The website was created from the ground up with original graphics and HTML5 coding. It features PayPal integration, Google Calendar, and a dynamic photo gallery.</p>
+		</article>
+	</div>
+
+
+<!--#include virtual="footer.txt" -->

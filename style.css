@@ -1,0 +1,731 @@
+
+
+@font-face {
+    font-family: "bariol";
+  font-style: normal;
+  font-weight: normal;
+  src: url("bariol_regular.eot?#iefix") format("embedded-opentype"), url("bariol_regular.woff") format("woff"), url("bariol_regular.ttf") format("truetype"), url("bariol_regular.svg#bariol_regular") format("svg");
+}
+
+@font-face {
+    font-family: "Pacifico";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Pacifico-webfont.eot?#iefix") format("embedded-opentype"), url("Pacifico-webfont.woff") format("woff"), url("Pacifico-webfont.ttf") format("truetype"), url("Pacifico-webfont.svg#Pacifico") format("svg");
+}
+
+@font-face {
+    font-family: "Nyala";
+  font-style: normal;
+  font-weight: normal;
+  src: url("NYALA.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: "the beautiful ones";
+  font-style: normal;
+  font-weight: normal;
+  src: url("thebeautifulones.eot?#iefix") format("embedded-opentype"), url("thebeautifulones.woff") format("woff"), url("thebeautifulones.ttf") format("truetype"), url("thebeautifulones.svg#thebeautifulones") format("svg");
+}
+
+@font-face {
+    font-family: "YouMurderer BB";
+  font-style: normal;
+  font-weight: normal;
+  src: url("youmurdererbb_reg.eot?#iefix") format("embedded-opentype"), url("youmurdererbb_reg.woff") format("woff"), url("youmurdererbb_reg.ttf") format("truetype"), url("youmurdererbb_reg.svg#youmurdererbb_reg") format("svg");
+}
+
+div#likebox {
+    position: absolute;
+    margin-top: 7em;
+}
+
+#sharebox {
+    float: left;
+    border-right: 2px groove white;
+    width: 30%;
+    margin-top: 2em;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Nyala,helvetica,arial,sans-serif;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    font-size: 100%;
+    background-attachment: scroll, scroll, scroll, scroll;
+    background-clip: border-box, border-box, border-box, border-box;
+    background-origin: padding-box, padding-box, padding-box, padding-box;
+    background-color: #7BCDD9;
+    background-image:  -moz-linear-gradient(left, rgba(255, 255, 255, 0.07), transparent 50%), -moz-linear-gradient(left, rgba(255, 255, 255, 0.13), transparent 50%), -moz-linear-gradient(left, transparent, rgba(255, 255, 255, 0.17) 50%), -moz-linear-gradient(left, transparent, rgba(255, 255, 255, 0.19) 50%);
+	background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.07), transparent 50%), -webkit-linear-gradient(left, rgba(255, 255, 255, 0.13), transparent 50%), -webkit-linear-gradient(left, transparent, rgba(255, 255, 255, 0.17) 50%), -webkit-linear-gradient(left, transparent, rgba(255, 255, 255, 0.19) 50%);
+	background-image:  -ms-linear-gradient(left, rgba(255, 255, 255, 0.07), transparent 50%), -ms-linear-gradient(left, rgba(255, 255, 255, 0.13), transparent 50%), -ms-linear-gradient(left, transparent, rgba(255, 255, 255, 0.17) 50%), -ms-linear-gradient(left, transparent, rgba(255, 255, 255, 0.19) 50%);
+	background-image:  -o-linear-gradient(left, rgba(255, 255, 255, 0.07), transparent 50%), -o-linear-gradient(left, rgba(255, 255, 255, 0.13), transparent 50%), -o-linear-gradient(left, transparent, rgba(255, 255, 255, 0.17) 50%), -o-linear-gradient(left, transparent, rgba(255, 255, 255, 0.19) 50%);
+    background-position: 0px 0%, 0px 0%, 0px 0%, 0px 0px;
+    background-repeat: no-repeat, repeat, repeat, repeat, repeat;
+    background-size: 300px 300px, 15px auto, 29px auto, 37px auto, 53px auto;
+    box-shadow: 1px 1px 40px inset;
+}
+
+#wrapper {
+    max-width: 1280px;
+    position: relative;
+}
+
+#main {
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    padding: 20px;
+    position: relative;
+    margin-top: 3%;
+    margin-left: 28%;
+    margin-bottom: 30px;
+    max-width: 675px;
+    width: 58%;
+}
+
+#main h2 {
+}
+
+nav {
+    float: left;
+    margin-top: 0px;
+    top: 400px;
+    position: absolute;
+    width: 34%;
+    margin-left: -4%;
+}
+
+nav li {
+    list-style: none outside none;
+}
+
+nav li a {
+    color: black;
+    font: 1.4em pacifico;
+    text-shadow: 1px 1px 20px white, -1px -1px 10px white, 1px -1px 10px white, -1px 1px 10px white, 1px 1px white, -1px -1px white, 1px -1px white, -1px 1px white;
+}
+
+nav li a:hover {
+    color: #FF1A4B;
+    -moz-transition: color 0.2s ease 0s;
+}
+
+nav ul {
+    margin: 0px auto;
+    width: 12%;
+}
+
+#mobilelogo {
+    width: 100%;
+    display: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    color: black;
+}
+
+h1 {
+    font-size: 3em;
+    padding: 0px 2% 0px 4%;
+}
+
+h1.title {
+}
+
+h2.title {
+    font-size: 2.3em;
+    display: block;
+    padding: 1% 0px 2% 5%;
+}
+
+#contactform h2 {
+    font: 2em pacifico;
+    text-shadow: -2px 1px darkred;
+    margin-left: 1.4%;
+    color: #FF1A4B;
+    display: block;
+    padding: 0.8% 0% 1.5% 4%;
+    background: url("images/geariconwhite.png") no-repeat scroll left center transparent;
+}
+
+p {
+    line-height: 1.4em;
+    font-size: 1.3em;
+    margin: 2% 0px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a img {
+    border: 0px none;
+}
+
+p a {
+}
+
+header {
+    float: left;
+    z-index: 99;
+    margin-top: -2%;
+    margin-left: -3%;
+    width: 34%;
+}
+
+header img {
+    width: 34%;
+    z-index: 37;
+    position: absolute;
+    max-width: 440px;
+}
+
+footer {
+    border-top: 3px dashed white;
+    clear: both;
+    background-image: url("images/contactfarm.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position: 94% 36%;
+    background-color: black;
+    background-size: 25% auto;
+}
+
+fieldset {
+    border: 0px none;
+    margin: 0px;
+    width: 63%;
+}
+
+input {
+    display: block;
+    width: 125px;
+    margin: 4% 0px 4% 9%;
+}
+
+textarea {
+    max-width: 5%;
+    min-width: 80%;
+    margin-left: 9%;
+}
+
+legend {
+    margin-left: 50px;
+    padding: 0px 5px 15px;
+    font: 1.5em 'goodpeaceregular';
+}
+
+.nyala {
+    color: #281C1C;
+    font: 2em/0.9em Nyala;
+    display: block;
+    width: 60%;
+    letter-spacing: 0.04em;
+}
+
+.beautiful {
+    font: 2em/0.8em "the beautiful ones";
+    color: #FCFF0B;
+}
+
+.bubble {
+    background: none repeat scroll 0% 0% #F8F8FF;
+    border-radius: 10px 10px 10px 10px;
+    border: thin solid black;
+}
+
+.drop {
+    letter-spacing: 0.04em;
+    display: block;
+    margin-left: 11%;
+}
+
+#portsample {
+    margin: 0px auto;
+    width: 90%;
+}
+
+#portsample figure {
+    display: inline-block;
+    background-color: transparent;
+    background-image: url("images/portbackgear.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    position: relative;
+    top: -0.5em;
+    float: left;
+    background-size: 93% auto;
+    width: 40%;
+    margin: 0px 4.9%;
+    max-width: 230px;
+}
+
+.title {
+    font-family: pacifico;
+    text-shadow: -2px 1px 2px black;
+    display: inline;
+    color: #FF1A4B;
+    background: url("images/gearicon.png") no-repeat scroll 0% 0% transparent;
+}
+
+.greenbox figure {
+}
+
+.greenbox p {
+    color: black;
+    text-align: justify;
+    width: 96%;
+    margin: 2%;
+}
+
+.gear {
+    position: fixed;
+    width: 6%;
+    max-width: 76px;
+    z-index: 99;
+}
+
+#bigcog {
+    position: fixed;
+    right: -2.3%;
+    top: -7px;
+    width: 16%;
+    max-width: 190px;
+}
+
+#fbgear {
+    right: 1%;
+    margin-top: 1%;
+}
+
+#twgear {
+    right: 5.6%;
+    margin-top: 4%;
+}
+
+#ggear {
+    margin-top: 7%;
+    right: 0.9%;
+}
+
+#liltonguey {
+    position: relative;
+    z-index: 0;
+    float: right;
+    top: 0%;
+    left: 12%;
+}
+
+#coolstory {
+    height: 6.2em;
+    background: url("images/bubble.png") no-repeat scroll 13% top transparent;
+    position: absolute;
+    width: 600px;
+    left: 30%;
+    padding-left: 2.5%;
+    top: 292px;
+}
+
+#coolstory p {
+    color: black;
+    font-family: bariol;
+    line-height: 1em;
+    margin-top: 2.7%;
+    margin-left: 0px;
+    text-align: left;
+    width: 100%;
+}
+
+#noidea {
+    font: 1.7em/0.8em "youmurderer bb";
+    display: inline-block;
+    color: #D8000E;
+}
+
+#means {
+    display: block;
+    position: relative;
+    font-family: inherit;
+    left: 10%;
+    line-height: 1.8em;
+}
+
+#dark {
+    top: 0%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 6;
+}
+
+.greenbox {
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 1%;
+    background: -moz-linear-gradient(top, #C1DE7D 0%, #A2CD3A 100%) repeat scroll 0px 0px padding-box transparent;
+	background: -webkit-linear-gradient(top, #C1DE7D 0%, #A2CD3A 100%) repeat scroll 0px 0px padding-box transparent;
+	background: -ms-linear-gradient(top, #C1DE7D 0%, #A2CD3A 100%) repeat scroll 0px 0px padding-box transparent;
+	background: -o-linear-gradient(top, #C1DE7D 0%, #A2CD3A 100%) repeat scroll 0px 0px padding-box transparent;
+    border: 10px dotted rgba(255, 255, 255, 0.55);
+    box-shadow: 0px 0px 6px, 0px 0px 6px inset;
+}
+
+#firstbox {
+    height: 10em;
+}
+
+#secondbox {
+    margin-top: 8%;
+}
+
+.portbox h2.title {
+    background: none repeat scroll 0% 0% transparent;
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
+}
+
+footer #copyright {
+    color: white;
+    position: relative;
+    display: block;
+    right: 10px;
+    text-align: right;
+}
+
+#contactform {
+    margin-left: 31.2%;
+    margin-top: 2%;
+    width: 63%;
+    border-left: 2px groove white;
+}
+
+#portsample img {
+    display: block;
+    width: 66%;
+    margin: 13% auto;
+}
+
+hgroup {
+    position: absolute;
+    width: 34%;
+}
+
+#windup {
+    color: #FF1A4B;
+    text-shadow: -2px 2px #FFDD15, -4px 7px 7px black;
+    display: block;
+    position: relative;
+    left: 15%;
+    z-index: 38;
+    width: 278%;
+    font: 7.7em 'youmurderer bb';
+}
+
+#webdesign {
+    text-shadow: -3px -1px #FFDD15;
+    color: black;
+    font: 2.9em pacifico;
+    margin: 35% 0px 0px 25.5%;
+    position: relative;
+    display: block;
+    z-index: 56;
+    width: 100%;
+}
+
+hgroup div {
+    width: 32%;
+    margin-top: 13%;
+    margin-left: 4%;
+}
+
+a.link {
+    display: inline-block;
+    position: relative;
+    float: right;
+    font: 2em bariol;
+    left: -2%;
+    top: 2%;
+    text-decoration: underline;
+}
+
+a.link:hover {
+    color: red;
+}
+
+.portentry {
+    float: left;
+    margin: 2% 2% -2% 0%;
+    border: medium double black;
+}
+
+#homepad {
+    position: absolute;
+    z-index: 99;
+    top: 0%;
+    padding: 15% 12.5%;
+    left: 4%;
+}
+
+.creations {
+    padding-top: 1%;
+    padding-left: 1%;
+    height: 26em;
+}
+
+#porttitle {
+    font-size: 1.5em;
+}
+
+.portbox {
+    padding: 2%;
+}
+
+.connect_widget_text_summary connect_text_wrapper {
+    display: none;
+}
+
+#twitterfeed {
+    position: absolute;
+    left: 5px;
+    width: 69%;
+}
+
+#twitter_t {
+    height: 34px;
+    background: url("images/twitterfeedlogo.png") no-repeat scroll left center transparent;
+}
+
+#twitter_m {
+    padding: 0px 15px;
+    background: none repeat-y scroll 0px 0px white;
+    border-radius: 5px 5px 5px 5px;
+    width: 37%;
+}
+
+#twitter_container {
+    min-height: 45px;
+    height: auto ! important;
+    padding-bottom: 10px;
+}
+
+#twitter_update_list {
+    padding: 0px;
+    overflow: hidden;
+    font-family: Nyala,'segoe ui',helvetica,arial,sans-serif;
+    color: #31353D;
+    line-height: 16px;
+    font-weight: bold;
+    font-size: 0.9em;
+    width: 126%;
+}
+
+#twitter_update_list li {
+    width: 81%;
+    list-style: none outside none;
+}
+
+#twitter_update_list li a {
+    color: #5F6D76;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+}
+
+#twitter_update_list li a:hover {
+    color: #31353D;
+    background: none repeat scroll 0% 0% #D3F1F9;
+}
+
+#twitter_b {
+    width: 445px;
+    height: 29px;
+}
+
+@media screen and (min-width: 1280px) {
+    #wrapper {
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #coolstory {
+        left: 27%;
+        top: 292px;
+    }
+
+    nav {
+        top: 345px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    header img {
+        position: absolute;
+    }
+
+    #coolstory {
+        left: 15%;
+        top: 378px;
+    }
+
+    nav {
+        top: 337px;
+        position: absolute;
+    }
+
+    #main {
+        width: 85%;
+        margin-left: 0px;
+        margin-top: 15%;
+        max-width: 775px;
+    }
+
+    h1.title {
+        margin-left: 28%;
+        font-size: 3em;
+    }
+
+    nav {
+        top: 0px;
+        padding-left: 35%;
+        width: 59%;
+    }
+
+    nav ul {
+        width: 100%;
+    }
+
+    nav ul, nav li {
+        display: inline-block;
+    }
+
+    nav li {
+        margin-right: 10%;
+        font-size: 1.4em;
+    }
+
+    .greenbox p {
+        font-size: 1.4em;
+    }
+
+    #means {
+    }
+
+    #liltonguey {
+        top: 9%;
+        left: 12%;
+    }
+
+    #contactform {
+        margin-left: 4%;
+    }
+
+    .creations {
+        height: 26em;
+    }
+
+    #sharebox {
+        float: right;
+    }
+
+    #likebox {
+    }
+
+    #twitterfeed {
+        left: auto;
+    }
+
+    footer {
+        background-position: 52% 56%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    #coolstory {
+        display: none;
+    }
+
+    #secondbox {
+        margin-top: 1%;
+    }
+
+    #firstbox {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    h1.title {
+        font-size: 2.5em;
+    }
+
+    nav li {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    h1.title {
+        font-size: 2em;
+    }
+
+    nav li {
+        margin-right: 0px;
+        background-color: black;
+        border: 4px solid white;
+        font-size: 1.2em;
+        width: 27%;
+        text-align: center;
+    }
+
+    #biglogo {
+        display: none;
+    }
+
+    #mobilelogo {
+        display: block;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header {
+        margin: 0px auto;
+    }
+
+    #main {
+        float: none;
+        margin: 0px auto;
+    }
+
+    nav {
+        top: 150px;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    nav li:first-child {
+        margin-left: 11%;
+        padding-left: 0px;
+    }
+
+    .creations {
+        height: 22em;
+    }
+}
