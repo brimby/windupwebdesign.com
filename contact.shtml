@@ -51,8 +51,6 @@
 	<article id="main">
 		<div id="tooth">
 			<div class="center flex-column">
-
-				<h1 class="ballpark">Contact Form</h1>
 				<p class='clearbox'>Ready to get a real web presence? Get excited partner. I'm going to build you something truly fantastic.<br><br> Leave your name, phone number and some brief details and I'll get you right back with options and quotes galore.</p>
 				<form action="http://www.justhost.com/justmail" enctype="multipart/form-data" method="POST">
 				<input type="hidden" name="sendtoemail" value="contact@windupwebdesign.com">

@@ -53,40 +53,29 @@
 	</header>
 
 	<article id="main">
-		<div id="tooth">
+		<div id="slide">
 			<div class="center">
-				<div id="spiel">
-					<h1 class="ballpark">Need a New Website?</h1>
-					<div class="block">
-						<p class="amerika">How 'bout one with</p>
-						<ul>
-							<li>Flare</li>
-							<li>Functionality &</li>
-							<li>Finesse?</li>
-						</ul>
-						<a href="contact.shtml" class="ctaButton1 amerika">Get Wind-up Now!</a>
-					</div>
-				</div>
+				
 			</div>
-			<div id="tripanel">
-				<div class="center">
-					<aside id="panel1" class="panel">
-						<h1>Explosive Content</h1>
-						<p>Writing that hooks eyeballs. Graphics that jump off the page. When your site rocks, users can't help themselves from coming back for more. Wind-up Web Design is here to keep them coming with fresh content that they can't do without.</p>
-					</aside><aside id="panel2" class="panel">
-						<h1>Mobile-Ready</h1>
-						<p>Mobile users are set to eclipse home users on the internet by 2014. Is your site waiting with open arms, or just kind of shrugging? The Wind-up Web Team makes sites look great on screens of any size. Try resizing your browser window now to see how it works!</p>
-					</aside><aside id="panel3" class="panel">
-						<h1>Propel Your Business</h1>
-						<p>A pretty website is nice, but a smart website is a powerful vehicle for your company's marketing strategy. We'll put you in the fast lane with crafted social marketing, SEO goodness, and razor's edge branding to get you to the head of the pack.</p>
-					</aside>
-					<div class='clear'></div>
-				</div>
+		</div>
+		<div id="tripanel">
+			<div class="center">
+				<aside id="panel1" class="panel">
+					<h1>Explosive Content</h1>
+					<p>Writing that hooks eyeballs. Graphics that jump off the page. When your site rocks, users can't help themselves from coming back for more. Wind-up Web Design is here to keep them coming with fresh content that they can't do without.</p>
+				</aside><aside id="panel2" class="panel">
+					<h1>Mobile-Ready</h1>
+					<p>Mobile users are set to eclipse home users on the internet by 2014. Is your site waiting with open arms, or just kind of shrugging? The Wind-up Web Team makes sites look great on screens of any size. Try resizing your browser window now to see how it works!</p>
+				</aside><aside id="panel3" class="panel">
+					<h1>Propel Your Business</h1>
+					<p>A pretty website is nice, but a smart website is a powerful vehicle for your company's marketing strategy. We'll put you in the fast lane with crafted social marketing, SEO goodness, and razor's edge branding to get you to the head of the pack.</p>
+				</aside>
 				<div class='clear'></div>
 			</div>
-			<a href="contact.shtml" class="ctaButton2 amerika">Get Wind-up Now!</a>
-			<div class="clear"></div>
+			<div class='clear'></div>
 		</div>
+		<a href="contact.shtml" class="ctaButton2 amerika">Get Wind-up Now!</a>
+		<div class="clear"></div>
 	</article>
 <footer>
 	<div class="center">
