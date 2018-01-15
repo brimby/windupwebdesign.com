@@ -35,7 +35,7 @@
 				<a href="https://plus.google.com/b/113142336519769355338/113142336519769355338/posts" title="Follow on Google+"><img src="images/gggear.png" alt="gg"></a>
 			</div> -->
 			<div class='banner'>
-				<div class='center space-between'>
+				<div class='center flex space-between'>
 					<a href="index.shtml"><img src="images/logoMain.png" id="biglogo" Alt="Wind-up Web Design"></a>
 					<div id='contact-box'>
 						<p>Phone: 707.318.5522</p>
@@ -45,7 +45,8 @@
 			</div>
 			<nav>
 				<div class='center'>
-					<a href="blog.shtml">Blog</a>
+					<a href="blog.shtml">Services</a>
+					<a href="blog.shtml">Pricing</a>
 					<a href="portfolio.shtml">Portfolio</a>
 					<a href="contact.shtml">Contact</a>
 				</div>
@@ -55,11 +56,27 @@
 	<article id="main">
 		<div id="slide">
 			<div class="center">
-				
+				<div id='spielback2'></div>
+				<div id='spielback'></div>
+				<div id='spiel'>
+					<h1>Time for a new website?</h1>
+					<p>Not only do we <span class='pop-word'>design</span> with flare and finesse, but also <span class='pop-word'>engineer</span> to bring any technical feature you can dream of to life.</p>
+					<p>Whether you're looking for a <span class='pop-word'>content-managed</span> site that you can update yourself, or a <span class='pop-word'>custom-tailored</span> masterpiece, Wind-up Web Design is here to provide you with the service you're looking for.</p>
+					<a href='contact.shtml' class='action-button'>View Options</a>
+					<a href='contact.shtml' class='action-button'>Get a Quote</a>
+				</div>
+			</div>
+		</div>
+
+		<div class='white-back slit'>
+			<div class='center center-align'>
+				<h1>Responsive Web Design and Development</h1>
+				<p>It's 2018 which means that it's now clearer than ever that the future of the web is in the palm of your hand. At Wind-up Web Design we develop with all devices in mind, whether that is a phone, tablet or desktop.</p>
+				<a class='action-button'>Learn More</a>
 			</div>
 		</div>
 		<div id="tripanel">
-			<div class="center">
+			<div class="center flex">
 				<aside id="panel1" class="panel">
 					<h1>Explosive Content</h1>
 					<p>Writing that hooks eyeballs. Graphics that jump off the page. When your site rocks, users can't help themselves from coming back for more. Wind-up Web Design is here to keep them coming with fresh content that they can't do without.</p>
@@ -74,8 +91,6 @@
 			</div>
 			<div class='clear'></div>
 		</div>
-		<a href="contact.shtml" class="ctaButton2 amerika">Get Wind-up Now!</a>
-		<div class="clear"></div>
 	</article>
 <footer>
 	<div class="center">
