@@ -1,0 +1,578 @@
+
+.clear {
+	clear: both;
+}
+
+@font-face {
+  font-family: "bariol";
+	src: url('fonts/bariol_regular.eot');
+  src: url("fonts/bariol_regular.eot?#iefix") format("embedded-opentype"),
+			 url("fonts/bariol_regular.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+    font-family: 'yellowtail';
+    src: url('fonts/Yellowtail-Regular-webfont.eot');
+    src: url('fonts/Yellowtail-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Yellowtail-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Yellowtail-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Artifika';
+    src:url('fonts/Artifika-Medium.ttf.woff') format('woff'),
+        url('fonts/Artifika-Medium.ttf.eot'),
+        url('fonts/Artifika-Medium.ttf.eot?#iefix') format('embedded-opentype');
+}
+body {
+	display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+body, h1, h2, h3, h4, h5 {
+	margin: 0;
+	font-family: bariol;
+}
+
+body p {
+	font: 15px Artifika, sans-serif;
+}
+h1 {
+	font-size: 2em;
+	font-weight: 100;
+}
+
+body, header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+21,7db9e8+79,1e5799+100 */
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(left, #1e5799 0%, #7db9e8 21%, #7db9e8 79%, #1e5799 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #1e5799 0%,#7db9e8 21%,#7db9e8 79%,#1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #1e5799 0%,#7db9e8 21%,#7db9e8 79%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#1e5799',GradientType=1 ); /* IE6-9 */
+}
+
+a, img{
+	border:none;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	box-shadow: 2px 0 39px #383838;
+}
+.slit {
+	padding: 20px 0;
+}
+.white-back {
+	background-color: #f1f1f1;
+  box-shadow: -30px -2px 39px rgba(0,0,0,0.45), inset 25px 0px 25px -25px rgba(0,0,0,0.45), inset -25px 0px 25px -25px rgba(0,0,0,0.45);
+  position: relative;
+  z-index: 3;
+}
+.center-align {
+	text-align: center;
+}
+#main {
+	padding-top: 100px;
+	flex: 1;
+}
+.pop-word {
+	font: 1.6em bariol;
+	color: #67a2d6;
+}
+#slide{
+	background: url("images/laptop2.jpg") no-repeat #efff81;
+	background-size: cover;
+	height: 500px;
+}
+.center{
+	margin: 0 auto;
+	max-width: 1500px;
+	padding: 0 30px;
+}
+.space-between {
+	justify-content: space-between;
+}
+.flex {
+	display: flex;
+}
+#creations .center{
+	padding-left: 0;
+	padding-bottom: 1%;
+}
+
+nav {
+	background: #f1f1f1;
+	//border-bottom: thin solid #333;
+}
+nav a {
+  color: #333;
+  font: 1.5em bariol, sans-serif;
+  text-decoration: none;
+	margin-right: 15px;
+	margin-left: 5px;
+}
+
+nav a:hover {
+  color: #5b96cc;
+}
+
+#social{
+	margin-left:20px;
+}
+#social a:nth-child(1) {
+    left: 16px;
+    position: relative;
+    top: 8px;
+}
+
+#social a:nth-child(2) {
+    left: 6px;
+    position: relative;
+    top: 28px;
+}
+
+
+#social a:nth-child(3) {
+    position: relative;
+    top: 19px;
+}
+
+#biglogo{
+	margin-top:10px;
+}
+.web-heading {
+    text-align: center;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+/* .action-button {
+	background-color: #f1f1f1;
+  margin-top: 10px;
+  display: inline-block;
+  border: #333 thin solid;
+  box-shadow: 2px 2px #333;
+  outline: #efff81 thin solid;
+  border-radius: 2px;
+} */
+.action-button {
+	background-color: #f1f1f1;
+	margin-top: 10px;
+	display: inline-block;
+	border: #5b96cc thin solid;
+	text-decoration: none;
+  color: #5b96cc;
+  padding: 8px 20px;
+  font-family: bariol;
+  font-weight: bold;
+	transition: linear .2s;
+	min-width: 84px;
+	margin-right: 10px;
+	text-align: center;
+}
+.action-button:hover {
+	color: white;
+	background: #5b96cc;
+}
+#spiel h1, #contact h1 {
+  font: 3em Yellowtail;
+  border-bottom: 2px dashed #333;
+  line-height: .8em;
+  display: inline-block;
+  padding-top: 40px;
+}
+
+#spiel p {
+	margin-left: 8px;
+	font-family: Artifika;
+	max-width: 450px;
+	line-height: 1.4em;
+}
+#spiel {
+	position: relative;
+	z-index: 2;
+}
+#spielback, #spielback2 {
+	background: #efff81;
+	height: 500px;
+	width: 500px;
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	position: absolute;
+}
+#spielback2 {
+	width: 515px;
+	opacity: .5;
+}
+.block{
+	margin-left:80px;
+}
+
+.ctaButton1, .ctaButton2{
+	background: url("images/ctaButton.png") no-repeat scroll 0 0 transparent;
+  color: white;
+  display: block;
+  font-size: 1.6em;
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 17px;
+  text-decoration: none;
+  width: 265px;
+	text-shadow: -1px -1px 1px #333
+	}
+#contact-box {
+  padding: 12px 0;
+}
+
+#contact-box p {
+  margin: 0;
+  font: 1.4em bariol, sans-serif;
+}
+#tripanel {
+	margin-top: 40px;
+	padding-bottom: 10px;
+}
+
+.panel{
+	background: none repeat scroll 0 0 white;
+  border-radius: 2px;
+  margin-left: 5px;
+  padding: 17px;
+}
+
+.panel h1{
+	font: 25px bariol, arial, sans-serif;
+	margin-top: -8px;
+	}
+
+.panel p {
+	font-family: Artifika, serif;
+	text-align: justify;
+}
+#panel1{
+	margin-left:0;
+	}
+
+#panel1 h1{
+	margin-left:-18px;
+	}
+
+#panel1 h1:before{
+	content: url("images/bomb.png");
+    float: left;
+    margin: -26px 0;
+}
+#panel2 h1:before{
+	content: url("images/iphone.png");
+    float: left;
+    margin: -26px 0;
+}
+#panel3 h1:before{
+	content: url("images/rocket.png");
+    float: left;
+    margin: -26px 0;
+}
+#creations{
+	clear:both;
+	background:black;
+	margin-top:30px;
+}
+#creations h1{
+	background: url("images/whitegear.png") no-repeat scroll 0 0 transparent;
+    font-size: 45px;
+    margin-left: -10px;
+    padding: 24px 0 20px 20px;
+}
+
+#creations img{
+	margin-right:2.2%;
+}
+#creations a:last-child img{
+	margin-right:0;
+}
+
+#examples{
+	margin:0 auto;
+	width:985px;
+}
+
+footer{
+	background: #f1f1f1;
+}
+
+footer a, footer span {
+	font-family:bariol, arial, sans-serif;
+	margin: 0;
+}
+
+#contact fieldset {
+  border: none;
+  padding: 0;
+  margin: 10px 0;
+}
+#contact input, #contact textarea{
+	display:block;
+	margin-bottom:20px;
+}
+
+#contact textarea{
+	width:100%;
+}
+
+
+#contact, #contact body {
+	height:100%;
+	}
+
+.ctaButton2{
+	display:none;
+	}
+
+#contact p, #contact fieldset{
+	width:40%;
+	min-width:400px;
+	}
+
+.clearbox {
+  border-radius: 2px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  font-family: Artifika, sans-serif;
+  background: rgba(255,255,255,.5);
+}
+@media only screen and (max-width: 1045px){
+	#main{
+		background-position:0 -47px;
+		}
+
+	#creations .center, #tripanel .center{
+		min-width:100px;
+		}
+
+	.panel{
+		min-width: 0;
+		width: auto;
+	}
+
+	#panel1, #panel2{
+		max-width: 44.5%;
+		}
+	#tooth > .center:first-child{
+		max-width:800px;
+		}
+	#creations a:last-child img{
+		display:none;
+		}
+	#examples{
+		width:800px;
+		}
+	#creations .center{
+		margin:0 auto;
+		width:800px;
+		}
+	#creations img{
+		margin-right: 5%;
+		}
+}
+
+@media only screen and (max-width: 865px) {
+
+	nav a{
+		display:block;
+		position:static  !important;
+		font-size:18px;
+		text-align:right;
+		}
+	#panel1, #panel2{
+		max-width:44.1%;
+		}
+
+	#tooth{
+		background: url("images/bigTooth.png") no-repeat scroll 110% 16% / 55% auto transparent;
+		}
+	#spiel{
+		left:20px;
+		}
+	#examples{
+		width:701px;
+		}
+	#creations .center{
+		margin:0 auto;
+		width:700px;
+		}
+	#creations img{
+		margin-right: 1%;
+		}
+
+}
+
+@media only screen and (max-width: 767px) {
+	#main{
+		padding-top:90px;
+		background: #8cb0ff; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #8cb0ff 0%, #5186ff 72%, #9bbbff 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#8cb0ff), color-stop(72%,#5186ff), color-stop(100%,#9bbbff)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #8cb0ff 0%,#5186ff 72%,#9bbbff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #8cb0ff 0%,#5186ff 72%,#9bbbff 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #8cb0ff 0%,#5186ff 72%,#9bbbff 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #8cb0ff 0%,#5186ff 72%,#9bbbff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cb0ff', endColorstr='#9bbbff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+		}
+
+	#biglogo{
+		display:block;
+		margin:0 auto;
+		}
+	#social{
+		position:relative;
+		top:10px;
+		}
+
+	#panel1, #panel2{
+		max-width:none;
+		}
+	#panel2{
+		margin:20px 0 0 0;
+		}
+	#tripanel .center{
+		margin: 0 auto;
+		max-width: 560px;
+		padding-right: 20px;
+		}
+	#spiel{
+		left:0;
+		width:auto;
+		}
+	#tooth{
+		background:none;
+		}
+	#examples{
+		width:465px;
+		}
+	#creations .center{
+		margin:0 auto;
+		width:auto;
+		max-width:700px;
+		}
+	#creations img{
+		margin-right: 1%;
+		}
+	#creations a:last-child img{
+		display:inherit;
+		}
+	.block p, .block ul{
+		display:none;
+		}
+	nav {
+		float:none;
+		width:415px;
+		padding-left:16px;
+		margin:0 auto;
+		}
+	nav a{
+		display:inline;
+		font-size:22px;
+		margin-right:20%;
+		}
+	nav a:nth-child(3){
+		margin-right:0;
+		}
+	#biglogo{
+		width:70%;
+		max-width:415px;
+		min-width:280px;
+		}
+	#social{
+		background: none repeat scroll 0 0 black;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 0;
+    padding-left: 2px;
+    position: fixed;
+    right: 0;
+    width: 43px;
+		}
+	#social a:nth-child(1) {
+		position:static;
+	}
+	#social a:nth-child(2) {
+		position:static;
+	}
+	#social a:nth-child(3) {
+		position:static;
+	}
+	.ctaButton1{
+		display:none;
+		}
+	.ctaButton2{
+		display:inherit;
+		margin:20px auto;
+		}
+	#spiel h1{
+		display:block;
+		width:410px;
+		margin:0 auto;
+		}
+	#main .center{
+		width:480px;
+		margin:0 auto;
+		}
+}
+
+@media only screen and (max-width: 532px){
+	#spiel h1{
+		width:245px;
+		}
+	#main{
+		padding-top:58px;
+		}
+	#tripanel .center{
+		min-width:271px;
+		}
+	.panel h1{
+		font-size:21.4px;
+		}
+	#examples{
+		width:230px;
+		}
+	#social{
+		position: fixed;
+		right: 9%;
+		width: 0;
+	}
+	#social img{
+		width:20%;
+		}
+	.block{
+		margin:0;
+		}
+
+	#tripanel{
+		margin-top:12px;
+		}
+	#spiel h1, #contact h1{
+		font-size:20px;
+		color:white;
+		font-family:amerika, sans-serif;
+		padding-left:19px;
+		padding-top:38px;
+		text-shadow:none;
+	}
+	#contact fieldset, #contact p{
+		min-width:255px;
+		}
+	#main .center{
+		width:320px;
+		}
+	#social{
+		display:none;
+		}
+}
