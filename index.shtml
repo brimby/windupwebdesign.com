@@ -67,23 +67,45 @@
 				</div>
 			</div>
 		</div>
-
-		<div class='white-back slit'>
+		<div class='circuit-back slit parallax'>
 			<div class='center center-align'>
-				<h1>Responsive Web Design and Development</h1>
-				<p>It's 2018 which means that it's now clearer than ever that the future of the web is in the palm of your hand. At Wind-up Web Design we develop with all devices in mind, whether that is a phone, tablet or desktop.</p>
+				<h1>Top Tech and Future Forward Coding</h1>
+				<p>It's 2018 and clearer than ever that the future of the web is in the palm of your hand. At Wind-up Web Design we develop with all devices in mind, whether that is a phone, tablet or desktop.</p>
 				<a class='action-button'>Learn More</a>
 			</div>
 		</div>
-		<div id="tripanel">
-			<div class="center flex">
-				<aside id="panel1" class="panel">
-				</aside><aside id="panel2" class="panel">
-				</aside><aside id="panel3" class="panel">
-				</aside>
-				<div class='clear'></div>
+		<div class='gray-gradient slit'>
+			<div class='center center-align'>
+				<h1>Responsive Web Development</h1>
+				<p>It's 2018 and clearer than ever that the <span class='pop-word'>future</span> of the web is in the palm of your hand. At Wind-up Web Design we develop with <span class='pop-word'>all devices</span> in mind, whether that is a phone, tablet or desktop.</p>
+				<img src='images/responsive-no-back.png' width='400' />
 			</div>
-			<div class='clear'></div>
+		</div>
+
+		<div class='circuit-back slit parallax'>
+			<div class='center center-align'>
+				<h1>Content Managed Systems</h1>
+				<p>It's 2018 and clearer than ever that the future of the web is in the palm of your hand. At Wind-up Web Design we develop with all devices in mind, whether that is a phone, tablet or desktop.</p>
+
+				<a class='action-button'>Learn More</a>
+			</div>
+		</div>
+		<div id='contact' class='white-back slit'>
+			<div class="center center-align flex-column">
+				<h1>Get in Touch</h1>
+				<form action="http://www.justhost.com/justmail" enctype="multipart/form-data" method="POST">
+				<input type="hidden" name="sendtoemail" value="contact@windupwebdesign.com">
+				<input type="hidden" name="subject" value="Wind-up Contact Form">
+				<input type="hidden" name="redirect" value="http://www.windupwebdesign.com">
+				<fieldset>
+					<input type='text' name='name' placeholder='Full Name *' required>
+					<input type='email' name='email' placeholder='Email Address *' required>
+					<input type='tel' name='phone' placeholder='Phone Number' required>
+					<textarea name='body' wrap='hard' rows=8></textarea>
+					<input type='submit' value='Send'>
+				</fieldset>
+				</form>
+			</div>
 		</div>
 	</article>
 <footer>

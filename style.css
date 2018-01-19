@@ -40,11 +40,13 @@ body, h1, h2, h3, h4, h5 {
 }
 
 body p {
-	font: 15px Artifika, sans-serif;
+	font: 15px helvetica, arial, sans-serif;
+	line-height: 1.8em;
 }
 h1 {
-	font-size: 2em;
+	font-size: 2.5em;
 	font-weight: 100;
+	margin-bottom: 20px;
 }
 
 body, header {
@@ -69,11 +71,42 @@ header {
 .slit {
 	padding: 20px 0;
 }
+.slit h1 {
+	color: #67a2d6;
+}
+.slit p {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.circuit-back {
+	background-image: url('images/circuits.jpg');
+}
+.circuit-back h1, .circuit-back p {
+	color: white;
+	text-shadow: 0px 0px 22px #000;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .white-back {
 	background-color: #f1f1f1;
   box-shadow: -30px -2px 39px rgba(0,0,0,0.45), inset 25px 0px 25px -25px rgba(0,0,0,0.45), inset -25px 0px 25px -25px rgba(0,0,0,0.45);
   position: relative;
   z-index: 3;
+}
+.gray-gradient {
+	box-shadow: -30px -2px 39px rgba(0,0,0,0.45), inset 25px 0px 25px -25px rgba(0,0,0,0.45), inset -25px 0px 25px -25px rgba(0,0,0,0.45);
+	position: relative;
+	z-index: 3;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+39,adadad+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #ffffff 39%, #adadad 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #ffffff 39%,#adadad 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #ffffff 39%,#adadad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#adadad',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .center-align {
 	text-align: center;
@@ -85,6 +118,7 @@ header {
 .pop-word {
 	font: 1.6em bariol;
 	color: #67a2d6;
+	line-height: 0;
 }
 #slide{
 	background: url("images/laptop2.jpg") no-repeat #efff81;
@@ -123,27 +157,6 @@ nav a:hover {
   color: #5b96cc;
 }
 
-#social{
-	margin-left:20px;
-}
-#social a:nth-child(1) {
-    left: 16px;
-    position: relative;
-    top: 8px;
-}
-
-#social a:nth-child(2) {
-    left: 6px;
-    position: relative;
-    top: 28px;
-}
-
-
-#social a:nth-child(3) {
-    position: relative;
-    top: 19px;
-}
-
 #biglogo{
 	margin-top:10px;
 }
@@ -164,7 +177,8 @@ nav a:hover {
 } */
 .action-button {
 	background-color: #f1f1f1;
-	margin-top: 10px;
+	margin: 10px;
+	margin-left: 0;
 	display: inline-block;
 	border: #5b96cc thin solid;
 	text-decoration: none;
@@ -174,26 +188,24 @@ nav a:hover {
   font-weight: bold;
 	transition: linear .2s;
 	min-width: 84px;
-	margin-right: 10px;
 	text-align: center;
 }
 .action-button:hover {
 	color: white;
 	background: #5b96cc;
 }
-#spiel h1, #contact h1 {
-  font: 3em Yellowtail;
+#spiel h1 {
+  font: 3.5em Yellowtail;
   border-bottom: 2px dashed #333;
   line-height: .8em;
   display: inline-block;
-  padding-top: 40px;
+  padding-top: 60px;
+	margin-bottom: 10px;
 }
 
 #spiel p {
-	margin-left: 8px;
-	font-family: Artifika;
 	max-width: 450px;
-	line-height: 1.4em;
+	margin-bottom: 25px;
 }
 #spiel {
 	position: relative;
@@ -227,7 +239,7 @@ nav a:hover {
   text-decoration: none;
   width: 265px;
 	text-shadow: -1px -1px 1px #333
-	}
+}
 #contact-box {
   padding: 12px 0;
 }
@@ -235,73 +247,6 @@ nav a:hover {
 #contact-box p {
   margin: 0;
   font: 1.4em bariol, sans-serif;
-}
-#tripanel {
-	margin-top: 40px;
-	padding-bottom: 10px;
-}
-
-.panel{
-	background: none repeat scroll 0 0 white;
-  border-radius: 2px;
-  margin-left: 5px;
-  padding: 17px;
-}
-
-.panel h1{
-	font: 25px bariol, arial, sans-serif;
-	margin-top: -8px;
-	}
-
-.panel p {
-	font-family: Artifika, serif;
-	text-align: justify;
-}
-#panel1{
-	margin-left:0;
-	}
-
-#panel1 h1{
-	margin-left:-18px;
-	}
-
-#panel1 h1:before{
-	content: url("images/bomb.png");
-    float: left;
-    margin: -26px 0;
-}
-#panel2 h1:before{
-	content: url("images/iphone.png");
-    float: left;
-    margin: -26px 0;
-}
-#panel3 h1:before{
-	content: url("images/rocket.png");
-    float: left;
-    margin: -26px 0;
-}
-#creations{
-	clear:both;
-	background:black;
-	margin-top:30px;
-}
-#creations h1{
-	background: url("images/whitegear.png") no-repeat scroll 0 0 transparent;
-    font-size: 45px;
-    margin-left: -10px;
-    padding: 24px 0 20px 20px;
-}
-
-#creations img{
-	margin-right:2.2%;
-}
-#creations a:last-child img{
-	margin-right:0;
-}
-
-#examples{
-	margin:0 auto;
-	width:985px;
 }
 
 footer{
@@ -318,11 +263,16 @@ footer a, footer span {
   padding: 0;
   margin: 10px 0;
 }
-#contact input, #contact textarea{
-	display:block;
-	margin-bottom:20px;
+#contact input, #contact textarea {
+	display: block;
+	margin-bottom: 4px;
 }
-
+input[type="submit"] {
+  padding: 5px 10px;
+}
+input[type='submit']:hover {
+	cursor: pointer;
+}
 #contact textarea{
 	width:100%;
 }
@@ -345,7 +295,6 @@ footer a, footer span {
   border-radius: 2px;
   padding: 5px 10px;
   margin: 10px 0;
-  font-family: Artifika, sans-serif;
   background: rgba(255,255,255,.5);
 }
 @media only screen and (max-width: 1045px){
