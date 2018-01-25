@@ -93,6 +93,8 @@
 					in mind—phone, tablet and desktop.
 				</p>
 				<img src='images/responsive-no-back.png' width='400' />
+				<br />
+				<a href='http://google.com' class='action-button'>Learn More</a>
 			</div>
 		</div>
 		<div class='circuit-back slit parallax'>
