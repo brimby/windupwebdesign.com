@@ -40,7 +40,7 @@ body, h1, h2, h3, h4, h5 {
 }
 
 body p {
-	font: 15px helvetica, arial, sans-serif;
+	font: 16px helvetica, arial, sans-serif;
 	line-height: 1.8em;
 }
 h1 {
@@ -61,12 +61,18 @@ body, header {
 a, img{
 	border:none;
 }
-
+img {
+	margin: 0 10px;
+}
 header {
 	position: fixed;
 	width: 100%;
 	z-index: 100;
 	box-shadow: 2px 0 39px #383838;
+}
+.width-500 {
+	max-width: 500px;
+	margin: 0 auto;
 }
 .slit {
 	padding: 20px 0;
@@ -74,16 +80,15 @@ header {
 .slit h1 {
 	color: #67a2d6;
 }
-.slit p {
-	max-width: 800px;
-	margin: 0 auto;
-}
 .circuit-back {
 	background-image: url('images/circuits.jpg');
 }
-.circuit-back h1, .circuit-back p {
+.city-back {
+	background-image: url('images/city.jpg');
+}
+.circuit-back h1, .circuit-back p, .city-back h1 {
 	color: white;
-	text-shadow: 0px 0px 22px #000;
+	text-shadow: 0px 0px 10px #000;
 }
 .parallax {
 	background-attachment: fixed;
@@ -130,11 +135,18 @@ header {
 	max-width: 1500px;
 	padding: 0 30px;
 }
+.center-small {
+	margin: 0 auto;
+	padding: 0 30px;
+	max-width: 800px;
+}
+
 .space-between {
 	justify-content: space-between;
 }
 .flex {
 	display: flex;
+	align-items: flex-start;
 }
 #creations .center{
 	padding-left: 0;
@@ -504,9 +516,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cb0ff', end
 		margin:0;
 		}
 
-	#tripanel{
-		margin-top:12px;
-		}
 	#spiel h1, #contact h1{
 		font-size:20px;
 		color:white;

@@ -36,7 +36,12 @@
 			</div> -->
 			<div class='banner'>
 				<div class='center flex space-between'>
-					<a href="index.shtml"><img src="images/logoMain.png" id="biglogo" Alt="Wind-up Web Design"></a>
+					<a href="index.shtml">
+						<img
+							src="images/logoMain.png"
+							id="biglogo"
+							alt="Wind-up Web Design">
+					</a>
 					<div id='contact-box'>
 						<p>Phone: 707.318.5522</p>
 						<p>Email: contact@windupwebdesign.com</p>
@@ -60,38 +65,110 @@
 				<div id='spielback'></div>
 				<div id='spiel'>
 					<h1>Time for a new website?</h1>
-					<p>Not only do we <span class='pop-word'>design</span> with flare and finesse, but also <span class='pop-word'>engineer</span> to bring any technical feature you can dream of to life.</p>
-					<p>Whether you're looking for a <span class='pop-word'>content-managed</span> site that you can update yourself, or a <span class='pop-word'>custom-tailored</span> masterpiece, Wind-up Web Design is here to provide you with the service you're looking for.</p>
+					<p>
+						Not only do we <span class='pop-word'>design</span> with flare and
+						finesse, but also <span class='pop-word'>engineer</span> to bring
+						to life any technical feature you can dream of.
+					</p>
+					<p>
+						Whether you're looking for a
+						<span class='pop-word'>content-managed</span>
+						site that you can update yourself, or a
+						<span class='pop-word'>custom-tailored</span>
+						masterpiece, Wind-up Web Design is here to provide you
+						with the service you're looking for.
+					</p>
 					<a href='contact.shtml' class='action-button'>View Options</a>
 					<a href='contact.shtml' class='action-button'>Get a Quote</a>
 				</div>
 			</div>
 		</div>
-		<div class='circuit-back slit parallax'>
-			<div class='center center-align'>
-				<h1>Top Tech and Future Forward Coding</h1>
-				<p>It's 2018 and clearer than ever that the future of the web is in the palm of your hand. At Wind-up Web Design we develop with all devices in mind, whether that is a phone, tablet or desktop.</p>
-				<a class='action-button'>Learn More</a>
-			</div>
-		</div>
 		<div class='gray-gradient slit'>
-			<div class='center center-align'>
+			<div class='center-small center-align'>
 				<h1>Responsive Web Development</h1>
-				<p>It's 2018 and clearer than ever that the <span class='pop-word'>future</span> of the web is in the palm of your hand. At Wind-up Web Design we develop with <span class='pop-word'>all devices</span> in mind, whether that is a phone, tablet or desktop.</p>
+				<p>It's 2018 and clearer than ever that the
+					<span class='pop-word'>future</span>
+					of the web is in the palm of your hand. At Wind-up Web Design we
+					develop with <span class='pop-word'>all devices</span>
+					in mind—phone, tablet and desktop.
+				</p>
 				<img src='images/responsive-no-back.png' width='400' />
 			</div>
 		</div>
-
 		<div class='circuit-back slit parallax'>
-			<div class='center center-align'>
-				<h1>Content Managed Systems</h1>
-				<p>It's 2018 and clearer than ever that the future of the web is in the palm of your hand. At Wind-up Web Design we develop with all devices in mind, whether that is a phone, tablet or desktop.</p>
-
-				<a class='action-button'>Learn More</a>
+			<div class='center-small flex'>
+				<div>
+					<h1>Content Management Systems</h1>
+					<p>
+						For many clients it is important that they stay in full control
+						of their content and can update their site without having coding skills.
+						For those wishing to manage their own site without having to hire
+						continuous tech help, we offer Wordpress development.
+					</p>
+				</div>
+				<img src='images/wordpress.png' />
 			</div>
 		</div>
-		<div id='contact' class='white-back slit'>
-			<div class="center center-align flex-column">
+		<div class='circuit-back slit parallax'>
+			<div class='center-small flex'>
+				<img src='images/ecommerce.png' />
+				<div>
+					<h1>Ecommerce Solutions</h1>
+					<p>
+						For many clients it is important that they stay in full control
+						of their content and can update their site without having coding skills.
+						For those wishing to manage their own site without having to hire
+						continuous tech help, we offer Wordpress development.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class='gray-gradient slit'>
+			<div class='center-small flex'>
+				<div>
+					<h1>Future-Forward Code</h1>
+					<p>
+						The world of web development is a continuously changing landscape, and
+						our developers have a vested interest in staying at the forefront of
+						these technical advancements so that your project will last for years to come.
+					</p>
+				</div>
+				<img src='images/tech_logos_wide.png' />
+			</div>
+		</div>
+		<div class='city-back slit parallax'>
+			<div class='center-small flex'>
+				<div>
+					<h1>Content Management Systems</h1>
+					<p>
+						For many clients it is important that they stay in full control
+						of their content and can update their site without having coding skills.
+						For those wishing to manage their own site without having to hire
+						continuous tech help, we offer Wordpress development.
+					</p>
+				</div>
+				<img src='images/wordpress.png' />
+			</div>
+		</div>
+		<div class='city-back slit parallax'>
+			<div class='center-small flex'>
+				<img src='images/ecommerce.png' />
+				<div>
+					<h1>Ecommerce Solutions</h1>
+					<p>
+						For many clients it is important that they stay in full control
+						of their content and can update their site without having coding skills.
+						For those wishing to manage their own site without having to hire
+						continuous tech help, we offer Wordpress development.
+					</p>
+				</div>
+			</div>
+		</div>
+	</article>
+<footer>
+	<div class="gray-gradient">
+		<div id='contact' class='slit'>
+			<div class="width-500 center-align flex-column">
 				<h1>Get in Touch</h1>
 				<form action="http://www.justhost.com/justmail" enctype="multipart/form-data" method="POST">
 				<input type="hidden" name="sendtoemail" value="contact@windupwebdesign.com">
@@ -107,9 +184,6 @@
 				</form>
 			</div>
 		</div>
-	</article>
-<footer>
-	<div class="center">
 		<span id="copyright">&#169; 2018 Brian Hamby | Wind-up Web Design</span>
 	</div>
 </footer>
