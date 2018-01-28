@@ -1,0 +1,22 @@
+{
+  "name": "windup",
+  "version": "1.0.0",
+  "description": "Portfolio site for my web design business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brimby/windupwebdesign.com.git"
+  },
+  "author": "Brian Hamby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brimby/windupwebdesign.com/issues"
+  },
+  "homepage": "https://github.com/brimby/windupwebdesign.com#readme",
+  "dependencies": {
+    "aos": "^2.2.0"
+  }
+}

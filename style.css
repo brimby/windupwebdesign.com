@@ -38,15 +38,21 @@ body, h1, h2, h3, h4, h5 {
 	margin: 0;
 	font-family: bariol;
 }
-
+a {
+	text-decoration: none;
+  border-bottom: 4px solid #7db9e8;
+	color: #7db9e8;
+}
+a:hover {
+	border-bottom: 0;
+}
 body p {
 	font: 16px helvetica, arial, sans-serif;
-	line-height: 1.8em;
+	line-height: 1.6em;
 }
 h1 {
-	font-size: 2.3em;
+	font-size: 2.2em;
 	font-weight: 100;
-	margin-bottom: 20px;
 }
 
 body, header {
@@ -57,10 +63,6 @@ body, header {
 	background: linear-gradient(to right, #1e5799 0%,#7db9e8 21%,#7db9e8 79%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#1e5799',GradientType=1 ); /* IE6-9 */
 }
-
-a, img{
-	border:none;
-}
 img {
 	margin: 0 10px;
 }
@@ -70,6 +72,12 @@ header {
 	z-index: 100;
 	box-shadow: 2px 0 39px #383838;
 }
+.blurb-box {
+  background: rgba(255, 255, 255, .6);
+  padding: 5px 20px;
+  border-radius: 5px;
+	margin: 20px 0;
+}
 .width-500 {
 	max-width: 500px;
 	margin: 0 auto;
@@ -77,18 +85,17 @@ header {
 .slit {
 	padding: 20px 0;
 }
-.slit h1 {
+.blurb-box h1, .slit h1 {
+	font-family: Yellowtail;
 	color: #67a2d6;
+	line-height: 1em;
+	border-bottom: 2px solid #70a3d6
 }
 .circuit-back {
 	background-image: url('images/circuits.jpg');
 }
 .city-back {
 	background-image: url('images/city.jpg');
-}
-.circuit-back h1, .city-back h1 {
-	color: white;
-	text-shadow: 2px 2px 2px #333;
 }
 .parallax {
 	background-attachment: fixed;
@@ -157,12 +164,13 @@ nav {
 	background: #f1f1f1;
 	//border-bottom: thin solid #333;
 }
-nav a {
+nav a, header a {
   color: #333;
   font: 1.5em bariol, sans-serif;
   text-decoration: none;
 	margin-right: 15px;
 	margin-left: 5px;
+	border: 0;
 }
 
 nav a:hover {
@@ -208,10 +216,10 @@ nav a:hover {
 }
 #spiel h1 {
   font: 3.5em Yellowtail;
-  border-bottom: 2px dashed #333;
+  border-bottom: 2px solid #333;
   line-height: .8em;
   display: inline-block;
-  padding-top: 60px;
+  padding-top: 40px;
 	margin-bottom: 10px;
 }
 
@@ -276,7 +284,7 @@ footer a, footer span {
   margin: 10px 0;
 }
 #contact input, #contact textarea {
-	display: block;
+	width: 32%;
 	margin-bottom: 4px;
 }
 input[type="submit"] {
@@ -299,9 +307,8 @@ input[type='submit']:hover {
 	}
 
 #contact p, #contact fieldset{
-	width:40%;
 	min-width:400px;
-	}
+}
 
 .clearbox {
   border-radius: 2px;
